@@ -9,3 +9,9 @@ df = pd.DataFrame(data)
 print(df)
 sequences = df["Séquence"]
 print(sequences)
+
+filtered_df = df[df["Longueur"] > 10]
+print(filtered_df)
+
+average_gc = df["Pourcentage GC"].mean()
+print(f"Pourcentage moyen de GC : {average_gc:.3f}%")
