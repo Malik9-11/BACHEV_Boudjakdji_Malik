@@ -1,3 +1,9 @@
+# Boudjakdji Malik, BACHEV, 11/12/2025
+# Bendeddouche Mohamed Youchae
+# Abdeldjelil Siham
+# Salhi Amira Nour El Houda
+# Nordine Baya
+
 import pandas as pd
 data = {
     "Séquence": ["ATGCGTACGTA", "GCTAGCTAGGCC", "ATGCGCGTAAGT", "TACGATCGTA", "ATGAAAGGCTT", "CGTACGTAGC", "TTAACCGGAT"],
@@ -7,8 +13,8 @@ data = {
 
 df = pd.DataFrame(data)
 print(df)
-sequences = df["Séquence"]
-print(sequences)
+Longueur = df["Longueur"]
+print(Longueur)
 
 filtered_df = df[df["Longueur"] > 10]
 print(filtered_df)
